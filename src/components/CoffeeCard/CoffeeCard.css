@@ -1,0 +1,72 @@
+.coffee-card {
+    width: 237px;
+}
+
+.coffee-card-image {
+    /*background-image: url('/public/cappuccino.png');*/
+    background-repeat: no-repeat;
+    text-align: left;
+    padding: 8px;
+    border-radius: 11px;
+    width: 233px;
+    height: 148px;
+}
+
+.coffee-card-tag {
+    background-color: #F5C769;
+    border-radius: 9px;
+    color: var(--cor-fonte-principal);
+    padding: 2px 13px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.coffee-card-info-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coffee-card-info-head-name {
+    color: var(--cor-fonte-principal);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.coffee-card-info-head-price {
+    background-color: #BDE3CC;
+    padding: 4px 6px;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.coffee-card-feedback {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.coffee-card-feedback-numbers {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.coffee-card-feedback-soldout {
+    color: #EC735D;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.coffee-card-feedback-score {
+    color: var(--cor-fonte-principal);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.coffee-card-feedback-votes {
+    color: #6E757C;
+    font-size: 12px;
+    font-weight: 700;
+}

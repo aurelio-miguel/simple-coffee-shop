@@ -1,0 +1,19 @@
+.caption-page {
+    color: var(--cor-fonte-principal);
+    width: 50%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6E757C;
+}
+
+@media only screen and (max-width: 860px) {
+    .caption-page {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .caption-page {
+        width: 100%;
+    }
+}

@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  background-image: url("/public/bg-cafe.png");
+  background-repeat: no-repeat;
+  background-color: #121315;
+  /*background-size: 100% auto;*/
+  height: 100%;
+  padding: 173px 56px 82px 56px;
+  font-family: 'Inter', sans-serif;
+}
+
+@media only screen and (min-width: 1024px) {
+  .App {
+    background-size: 100% auto;
+  }
+}
