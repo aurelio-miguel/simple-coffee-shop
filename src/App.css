@@ -2,9 +2,7 @@
   text-align: center;
   background-image: url("/public/bg-cafe.png");
   background-repeat: no-repeat;
-  background-color: #121315;
-  /*background-size: 100% auto;*/
-  height: 100%;
+  height: 100vh;
   padding: 173px 56px 82px 56px;
   font-family: 'Inter', sans-serif;
 }
